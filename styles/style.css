@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+/* tipo y tamaño de letra*/ 
+html {
+    font-family: 'Amatic SC';
+    font-size: 62.5%;
+  }
+/*header para todas las paginas*/
+
+.fondo-index {
+  background-image: url(./image/fondo-index2.png);
+  background-size: cover ;
+  background-position: center;
+}
+
+  .logo a img {
+    width: 200px;
+  }
+  
+  nav ul {
+    padding-bottom: 20px;
+    list-style: none;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.5s;
+  }
+
+  nav ul li a:hover {
+    color: rgb(182, 182, 182); /* Nuevo color cuando paso el mouse por el enlace */
+  }
+  
+  /* principal relleno de index */ 
+  .principal {
+    text-align: center;
+  }
+
+  section h1 {
+    font-size: 6rem;
+  }
+  
+  section p {
+    font-size: 3rem;
+  }
+
+  /*relleno nosotros*/
+
+  .fondo-nosotros {
+    background-image: url(./image/fondo-nosotros.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* relleno bebidas*/
+ 
+  .fondo-bebidas {
+    background-image: url(./image/fondo-bebidas.png);
+    background-size: cover;
+  }
+
+.bebidas {
+  text-align: center;
+}
+.bebidas h2{
+  font-size: 5rem;
+}
+
+.bebidas-lista  {
+  display: flex;
+  text-align: center;
+}
+
+.bebidas-lista li {
+  width: 50%;
+}
+.bebidas-lista h3{
+  font-size: 4rem;
+}
+.bebidas-lista p{
+  font-size: 3rem;
+}
+
+.bebidas-lista img {
+  width: 70%;
+}
+
+
+  /* relleno eventos*/
+
+.fondo-eventos {
+  background-image: url(./image/fondo-eventos.png);
+  background-size: cover ;
+  background-position: center;
+}
+
+.eventos-lista{
+  list-style: none;
+}
+
+.eventos-lista h2 {
+  font-size: 5rem;
+}
+
+.eventos-lista h3 {
+   font-size: 4rem;
+}
+
+.eventos-lista p {
+  font-size: 2rem;
+}
+
+.eventos-lista img {
+  width: 50%;
+}
+
+/* relleno contacto*/
+
+.fondo-contacto {
+  background-image: url(./image/fondo-contacto.png);
+  background-size: cover ;
+  background-position: bottom;
+}
+
+.contact-form, .contact-info {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 1rem;
+  border: 1px solid #727272;
+}
+
+form button {
+  background-color: #727272;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+#contact-info p {
+  margin: 0.5rem 0;
+}
+
+  
+/* footer para todas las paginas */
+footer {
+  font-size: 2rem;
+  background-color: #494949;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+  
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+  
+footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+  
+footer ul li:last-child {
+  margin-right: 0;
+}
+  
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
